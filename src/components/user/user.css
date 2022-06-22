@@ -1,0 +1,37 @@
+.Show
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group
+{
+    padding: 5px;
+    margin-left: -45px;
+}
+input{
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+button
+{
+    padding: 8px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin-left: 22px;
+    border-radius: 4px;
+}
+button:hover
+{
+    background-color: #45a049;
+}
+.ShowInf
+{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 4px;
+}
