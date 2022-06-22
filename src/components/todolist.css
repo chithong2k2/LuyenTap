@@ -1,0 +1,31 @@
+.addList
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.job
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.button
+{
+    padding: 8px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+}
+.button:hover
+{
+    background-color: #45a049;
+}
