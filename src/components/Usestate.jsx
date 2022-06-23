@@ -2,15 +2,18 @@ import React from 'react';
 import {useState} from 'react';
 function Hihi()
 { 
-    const [count, setCount] = useState(60);
+    const [count, setCount] = useState(0);
     const inCrease=()=>{
-        setInterval(()=>{
-        setCount(prev => prev -1)},1000)
+        setCount(prev => prev+1)
+    }
+    const decrease=()=>{
+        setCount(prev => prev-1)
     }
     return(
         <div>
             <h1>{count}</h1>
-            <button onClick={inCrease}>Click me</button>
+            <button onClick={inCrease}>Tăng</button>
+            <button onClick={decrease}>Giảm</button>
         </div>
     )
 }
