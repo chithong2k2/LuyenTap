@@ -41,15 +41,17 @@ function User()
     return(
         <div className="Show">
             <div className="Info">
-                <h1>Login</h1>
-                <div className="form-group">
-                    <input value={user} type="text" onChange={InputUser} placeholder="Username"/>
+                <div className="Form">
+                    <h1>Login</h1>
+                    <div className="form-group">
+                        <input value={user} type="text" onChange={InputUser} placeholder="Username"/>
+                    </div>
+                    <div className="form-group">
+                        <input value={password} type="password" onChange={InputPassword} placeholder="Password"/>
+                    </div>
                 </div>
-                <div className="form-group">
-                    <input value={password} type="password" onChange={InputPassword} placeholder="Password"/>
-                </div>
-                <button onClick={Sumit}>Submit</button>
-                <button onClick={()=>setCheck(true)}>Show</button>
+                <button className="Button" onClick={Sumit}>Submit</button>
+                <button className="Button" onClick={()=>setCheck(true)}>Show</button>
                 {check &&<Show object={object}/>}
             </div>
         </div>
