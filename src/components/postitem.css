@@ -1,0 +1,20 @@
+ul.Course-items {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.Course-items li {
+    flex-basis: 33.3%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+ 
+}
+
+ul.Course-items li img {
+    max-width: 100%;
+    height: auto;
+}
