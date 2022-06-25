@@ -1,0 +1,46 @@
+.Time {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+.Content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Increase {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+    border: none;
+}
+.Increase:hover {
+    background-color: #45a049;
+}
+.Increase:active {
+    background-color: green;
+    transition: all 0.5s;
+}
+.Decrease {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+    border: none;
+}
+.Decrease:hover {
+    background-color: #45a049;
+}
+.Decrease:active {
+    background-color: green;
+    transition: all 0.5s;
+}
